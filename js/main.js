@@ -12,7 +12,7 @@ const currentYear = new Date().getFullYear(); // 2020
 const nextYear = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 
 // Устанавливаем год на страницу
-year.innerText = currentYear + 1;
+year.innerText = currentYear + 0;
 
 function updateCounter() {
 	const currentTime = new Date();
